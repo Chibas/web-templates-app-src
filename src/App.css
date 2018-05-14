@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container{
+  width: 1170px;
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.editable {
+  position: relative;
+}
+
+.editable:hover {
+  cursor: pointer;
+}
+
+.editable:hover:before {
+  content: '\f14b';
+  font-family: "FontAwesome";
+  font-size: 14px;
+  color: #333;
+}
+
+.blueBtn {
+  display: inline-block;
+  background-color: deepskyblue;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.blueBtn:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

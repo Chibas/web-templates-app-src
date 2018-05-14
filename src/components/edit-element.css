@@ -1,0 +1,33 @@
+.edit-form {
+    background-color: #eee;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.edit-form__fields .form-group {
+    display: flex;
+    padding: 5px 0;
+}
+
+.edit-form__fields .form-group input, .edit-form__fields .form-group {
+    flex-grow: 1;
+}
+
+.edit-form__fields .form-group input {
+    margin-left: 10px;
+}
+
+.edit-form__fields .form-group:nth-child(1) input {
+    width: 50px;
+}
+
+.edit-form__fields .form-group:nth-child(2) input {
+    width: 30px;
+}
+
+.edit-form__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
